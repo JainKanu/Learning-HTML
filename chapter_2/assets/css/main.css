@@ -1,0 +1,26 @@
+body{
+    background: #9E9E9E;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/*
+.class html can be same name use multiple place in a single document
+#id html  can be same name use once place in a single document
+*/
+#Content{
+    width: 100%;
+    border: 1px solid;
+    height: 100vh;
+}
+.KN-BG{
+    /* background: red; */
+    background: url(https://unsplash.it/284/60);
+    padding: 10px 0;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.KN-BG>p{
+    background: #adb5bdd1;
+}

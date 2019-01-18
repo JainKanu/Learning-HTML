@@ -9,27 +9,28 @@ body{
     margin-right:auto;
 }
 
-.header{
+#header{
     background-color: skyblue;
     color: white;
     text-align: center;
 }
 
-.content{
+#content{
     padding; 10px;
+    clear: both;
 }
 
-.nav{
+#nav{
     width: 180px;
     text-align: left;
 }
 
-.main{
+#main{
     width: 600px;
     float: right;
 }
 
-.footer{
+#footer{
     clear: both;
 
 }

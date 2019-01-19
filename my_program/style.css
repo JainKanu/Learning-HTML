@@ -1,36 +1,61 @@
+@import url("./assets/css/mobile.css");
 body{
     background-color: grey;
 }
-
-#container{
-    background-color: White;
-    width:80px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 #header{
     background-color: skyblue;
     color: white;
     text-align: center;
 }
 
+#container{
+    background-color: #eeeeee;
+    /* width:80px;
+    margin-left:auto;
+    margin-right:auto; */
+}
+
+
 #content{
-    padding; 10px;
-    clear: both;
+    /* padding; 10px;
+    clear: both; */
 }
 
 #nav{
-    width: 180px;
+    /* width: 180px;
+    text-align: left; */
+}
+#nav >h3{
+    margin: 18px 0;
+    display: inline-block;
+    width: 19%;
+}
+#nav > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 80%;
     text-align: left;
 }
 
+#nav > ul>li {
+    display: inline-block;
+    margin: 0px;
+    padding: 9px 9px;
+    background: red;
+    color: blanchedalmond;
+}
 #main{
-    width: 600px;
-    float: right;
+    /* width: 600px;
+    float: right; */
+    padding: 20px;
 }
 
 #footer{
     clear: both;
-
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    font-weight: 600;
 }

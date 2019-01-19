@@ -1,0 +1,14 @@
+/* For Mobile */
+@media (max-width:767px) {
+    body{
+        background-color : #eeeeee !important;
+    }
+    #nav{
+        padding: 20px !important;
+    }
+    #nav > h3,
+    #nav > ul{
+        text-align: center !important;
+        width:100% !important;
+    }
+}

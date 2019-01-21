@@ -9,3 +9,4 @@ function printTable(){
     pTag.innerHTML = result;
     console.log(result);
 }
+

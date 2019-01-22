@@ -1,12 +1,14 @@
 $(document).ready(function(){
-        var mybuttons= $("p:button");
+        var mybuttons= $("input:button");
+        // console.log(mybuttons);
         mybuttons.click(ShowHideMenu);
-        console.log(PAGECONTENT);
+        // console.log(PAGECONTENT);
         });
 
 function ShowHideMenu(e){
-        if($(this).text() == "Haryana") haryanaPage(PAGECONTENT.Haryana);
-        if($(this).text() == "Punjab") punjabPage(PAGECONTENT.Punjab);
+        console.log($(this).val());
+        if($(this).val() == "Haryana") haryanaPage(PAGECONTENT.Haryana);
+        if($(this).val() == "Punjab") punjabPage(PAGECONTENT.Punjab);
 }
 
 function haryanaPage(HARYANACONTENT){

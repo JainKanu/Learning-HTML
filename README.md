@@ -1,5 +1,5 @@
 Chapter 5 link
-#https://jainkanu.github.io/Learning-HTML/Chapter_5/jquery.html
+# https://jainkanu.github.io/Learning-HTML/Chapter_5/jquery.html
 
 # Learning-HTML
 THis is my first commit

@@ -4,7 +4,7 @@ $(document).ready(function(){
         console.log(PAGECONTENT);
         });
 
-function ShowHideMenu(){
+function ShowHideMenu(e){
         if($(this).text() == "Haryana") haryanaPage(PAGECONTENT.Haryana);
         if($(this).text() == "Punjab") punjabPage(PAGECONTENT.Punjab);
 }

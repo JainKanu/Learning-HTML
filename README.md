@@ -1,3 +1,11 @@
+Chapter 5 link
+# (https://jainkanu.github.io/Learning-HTML/Chapter_5/jquery.html)
+
+Chapter 4 link
+# https://jainkanu.github.io/Learning-HTML/Chapter%204%20with%20jQuery/mywebsite.html
+
+My Program Links
+# https://jainkanu.github.io/Learning-HTML/my_program/tablewithjavascript.html
 # Learning-HTML
 THis is my first commit
 
@@ -34,5 +42,3 @@ CSS
 
 Javascript
 
-Chapter 5 link
-#(https://jainkanu.github.io/Learning-HTML/Chapter_5/jquery.html) 

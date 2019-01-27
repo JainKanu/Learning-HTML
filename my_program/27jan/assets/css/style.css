@@ -1,0 +1,111 @@
+ /* Selecter for all Elements
+*{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-color: lightgray;
+    color: white;
+
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal; */
+              
+        /* Same As above in short way */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 20px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.content{
+    background-color: black;
+
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+
+        /* same as above in short way */
+
+    border: 5px red ;
+    border-width: 3px;
+    border-bottom-width: 10px;  /*For single side width setup*/
+
+    /* Border Style */
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style:solid;
+    border-left-style:groove;
+      
+    /* padding can create space in content in the border or content of element in container */
+/* 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+        /* Same as above in short way */
+    
+    padding: 20px;
+
+    /* margin can create space of element in container */
+
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+
+        /* Same as above in short way */
+    
+    margin: 20px;
+
+}
+
+.content h1{                   /*selecter for element in class*/
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.parg{
+    background-image:url('../img/download.jpg');
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.lists{
+    border: 2px lightpink solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.lists h2{
+    text-align: center;
+}
+
+.lists ul{
+    padding: 0;
+    list-style: none;
+}
+
+.lists li{
+    padding-bottom: 6px;
+    border-bottom: dotted 2px black;
+}
+
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid #161414;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 0 20px 0;
+}

@@ -12,6 +12,7 @@ THis is my first commit
 While making templates
     1)We just segrgate in several files
         Main file -->
+        header,footer,section,nav,sidebar,aside,main
         1.)   Header -->
         2.)   Slider -->
         3.)   Section -->
@@ -20,15 +21,17 @@ While making templates
         6.)   SideBar -->
 
     Our Template
-        1.)   Left  SideBar
-                --> Menu,Navigation
-                --> Profile Component
-        2.)   Right SideBar
-                --> Sections
-                    --> Section 1
-                        --> Heading
-                        --> Description
-                        --> Social Media Links
+    conatiner-fluid
+        Row
+        Col-lg-3   1.)   Left  SideBar
+                    --> Menu,Navigation
+                    --> Profile Component
+        Col-lg-9   2.)   Right SideBar
+                    --> Sections
+                        --> Section 1
+                            --> Heading
+                            --> Description
+                            --> Social Media Links
 HTML
     h1-h6,p,span --->["Text"]
     Div,table(tr,td,thead,tbody,tfoot) ["Element"]

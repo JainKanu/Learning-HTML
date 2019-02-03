@@ -36,6 +36,7 @@ body{
 #sideNav{
     height: 100vh;
     padding: 0;
+    display: flex;
 }
 
 .menuList{
@@ -54,5 +55,17 @@ a{
 }
 
 #header{
+    height: 100vh;
+}
+
+#experience h1{
+    font-size: 50px;
+}
+
+#education h1{
+    font-size: 50px;
+}
+
+#education{
     height: 100vh;
 }

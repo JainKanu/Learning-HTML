@@ -64,6 +64,10 @@ a{
     color: white;
 }
 
+#menuList a:hover{
+    background-color: whitesmoke!important;
+}
+
 #about{
     height: 100vh;
 }
@@ -130,12 +134,14 @@ a{
 }
 
 .resume-date{
-    margin-left: 30rem;
     color: rgba(255, 94, 0, 0.623);
 }
 
 .date{
-    font-size: 23px;
+    font-size: 14px;
 }
 
+.senior{
+    font-size: 13px;
+}
 

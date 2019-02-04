@@ -9,11 +9,10 @@ body{
     color: #212529;
 }
 
-/* #Content{
+#Content{
     width: 100%;
-    border: 1px solid;
-    height: 100vh;
-} */
+    background-color:rgba(245, 245, 245, 0.404);
+}
 
 #about h1{
     /* text-align: center; */
@@ -24,7 +23,7 @@ body{
 
 
 .name{
-    color: rgb(255, 94, 0);
+    color: rgba(255, 94, 0, 0.623);
 }
 
 #about h6{
@@ -38,8 +37,9 @@ body{
 }
 
 #sideNav{
+    background-color:rgba(255, 94, 0, 0.623);
     height: 100vh;
-    width: 200px;
+    width: 230px;
     padding: 0;
     display: flex;
     position: fixed;
@@ -55,9 +55,10 @@ body{
 #menuList li{
     list-style: none;
 }
-/* .menuList li a{
-    font-family: 'ZCOOL KuaiLe', cursive;
-} */
+
+#menuList li a{
+    font-family: 'ZCOOL KuaiLe';
+}
 
 a{
     color: white;
@@ -127,3 +128,4 @@ a{
 .languages .css{
     margin-right: 10px;
 }
+

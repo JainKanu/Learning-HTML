@@ -1,3 +1,6 @@
+Chapter 6 Link
+# (https://jainkanu.github.io/Learning-HTML/Chapter-6/Resume.html)
+
 Resume Template link
 # (https://jainkanu.github.io/Learning-HTML/my_program/template.html)
 

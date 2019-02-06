@@ -18,16 +18,13 @@ body{
 
 #about{
     height: 100vh;
+    text-transform: uppercase;
 }
 
 #about h1{
     text-transform: uppercase;
     font-size: 5rem;
     color: black;
-}
-
-#about{
-    text-transform: uppercase;
 }
 
 #experience h1{
